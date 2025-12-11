@@ -24,7 +24,7 @@ jobs:
       - name: Update README with timestamp
         run: node scripts/update-readme.js
 
-      - name: Commit & push changes (as Orkhan)
+      - name: Commit & push changes (as Mahir)
         run: |
           git config user.name "Mahir Abdullayev"
           git config user.email "MahirAbdullayev@users.noreply.github.com"
